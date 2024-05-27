@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto pessoal de calculo numérico</title>
+    <style>
+        .entrada{
+            width: 50px;
+        }
+
+        #quadro{
+            margin: auto;            
+        }
+        #btn1{
+            margin-top: 30px;
+        }
+        #dados{
+            max-height: 200px;
+            overflow: hidden;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Encontrar Raizes</h1>
+        <input type="number" class="entrada"><label for="info">x^5</label>
+        <input type="number" class="entrada"><label for="info">x^4</label>
+        <input type="number" class="entrada"><label for="info">x^3</label>
+        <input type="number" class="entrada"><label for="info">x^2</label>
+        <input type="number" class="entrada"><label for="info">x</label>
+        <input type="number" class="entrada"><label for="info">constante</label>
+        <br>
+        <hr>
+        <label for="info">Erro:</label><input type="number" class="entrada"><label for="info">Valor Inicial:</label><input type="number" class="entrada">
+        <br>
+        <button onclick="teste()" id="btn1">Calcular</button><script src="teste.js"></script>
+        <hr>
+    <div id="quadro">
+        <div id="dados"></div>
+        <br>
+        <hr>
+        <br>
+        <label for="resiltados">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus debitis hic fugit est officiis aliquam neque natus consequuntur deserunt minima assumenda perferendis eveniet dolorum, quasi numquam laboriosam ullam deleniti. Aperiam?</label>
+    </div>
+
+</body>
+</html>
